@@ -1,135 +1,83 @@
-/* File Creator: Weston Hood
-File Creation Date: Unknown
-Latest Revision: 29Sep2022
-File Version: v2.0
+/* ---------- File Details ---------- */
+
+/*
+File Creator: Weston Hood
+File Creation Date: 22Feb23
+Latest Revision: 23Feb23 (in progress)
+File Version: v3.0
 */
 
-/* Browser Resets */
 
-* {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Classes */
-
-.ProjectItem {
-    border: solid;
-    font-size: x-large;
-    border-radius: 5px;
-    background-color: #ffb41470;
-    text-align: center;
-    max-width: fit-content;
-    padding: 0.1em;
-}
-
-/* Content */
-
-article {
-    margin: 1em;
-    border: solid;
-    border-radius: 1em;
-    background-color: rgba(168, 168, 168, 0.8);
-    padding: 0.5em;
-    max-width: fit-content;
-}
-
-ul {
-    font-size: larger;
-}
-
-header {
-    margin: 0.5em auto 0 auto;
-    background-color: rgba(0, 128, 128, 0.4);
-    border-radius: 1em;
-    max-width: fit-content;
-    padding: 0.25em 1.25em 0.25em 0.5em;
-}
-
-section {
-    margin: 0.5em;
-    padding: 15px;
-    background-color: rgba(168, 168, 168, 0.8);
-    border-radius: 1em;
-    border: 2px solid;
-    max-width: fit-content;
-}
-
-nav {
-    border: solid;
-    border-radius: 1em;
-    background-color: #66ffff;
-    margin: 10px;
-
-}
+/* ---------- Body ---------- */
 
 body {
-    background-image: url(pexels-eberhard-grossgasteiger-1287145.jpg);
-    /* background: fixed; */
-    background-size: 130%;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background-image: url(images/layered-waves-haikei.svg);
+    background-attachment: fixed;
+    background-position: bottom;
 }
 
-table {
-    width: 100%;
-    text-align: center;
+
+/* ---------- Header ---------- */
+
+
+/* ---------- Nav ---------- */
+
+.page-index {
+    /* Uncomment text below to disable link in Nav Bar */
+    /*color: var(--bs-nav-link-disabled-color);
+      pointer-events: none;
+      cursor: default;*/
 }
 
-h1 {
-    text-align: center;
-    font-size: 3em;
-    font-family: 'Lucida Handwriting';
+.page-projects {
+    /* Uncomment text below to disable link in Nav Bar */
+    /*color: var(--bs-nav-link-disabled-color);
+      pointer-events: none;
+      cursor: default;*/
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    padding: 10px;
-    background-color: white;
+.page-articles{
+    /* Uncomment text below to disable link in Nav Bar */
+    /*color: var(--bs-nav-link-disabled-color);
+      pointer-events: none;
+      cursor: default;*/
 }
 
-h2 {
-    font-family: Verdana;
-    font-size: xx-large;
-    font-weight: normal;
+.page-about{
+    /* Uncomment text below to disable link in Nav Bar */
+    /*color: var(--bs-nav-link-disabled-color);
+      pointer-events: none;
+      cursor: default;*/
 }
 
-h3 {
-    font-size: x-large;
+.page-contact {
+    /* Uncomment text below to disable link in Nav Bar */
+    color: var(--bs-nav-link-disabled-color);
+    pointer-events: none;
+    cursor: default;
 }
 
-h4 {
-    font-size: larger;
+
+/* ---------- Projects ---------- */
+
+.project-card {
+    width: 30rem;
+    margin: 3em 1em 0em;
 }
 
-a {
-    color: black;
-    text-decoration: none;
+a.project-link {
+color: var(--bs-card-title-color);
+text-decoration: none;
 }
 
-a:has(h4) {
-    text-decoration: underline;
-    color: rgb(85, 7, 136);
+a.project-link:hover {
+color: #ced4da;
 }
 
-p {
-    font-size: x-large;
+.project-section-container {
+margin: 3em 1em 0em;
+background-color: rgba(21, 25, 29, 0.8);
 }
 
-th {
-    font-size: 1.5em;
-}
+/* ---------- Footer ---------- */
 
-.zoom-box {
-    background-color: #CF4B32;
-    width: 100px;
-    height: 100px;
-    margin: 32px auto;
-    transition: transform .2s;
-    /* Animation */
-}
-
-.zoom-box:hover {
-    transform: scale(1.5);
-}
