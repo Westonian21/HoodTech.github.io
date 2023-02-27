@@ -45,9 +45,9 @@ body {
 
 .page-about{
     /* Uncomment text below to disable link in Nav Bar */
-    /*color: var(--bs-nav-link-disabled-color);
+      color: var(--bs-nav-link-disabled-color);
       pointer-events: none;
-      cursor: default;*/
+      cursor: default;
 }
 
 .page-contact {
