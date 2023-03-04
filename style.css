@@ -14,8 +14,13 @@ body {
     background-image: url(images/layered-waves-haikei.svg);
     background-attachment: fixed;
     background-position: bottom;
+    background-size:cover;
 }
 
+.section-container {
+    margin: 3em 1em 0em;
+    background-color: rgba(21, 25, 29, 0.8);
+}
 
 /* ---------- Header ---------- */
 
@@ -36,18 +41,18 @@ body {
       cursor: default;*/
 }
 
-.page-articles{
+.page-articles {
     /* Uncomment text below to disable link in Nav Bar */
     /*color: var(--bs-nav-link-disabled-color);
       pointer-events: none;
       cursor: default;*/
 }
 
-.page-about{
+.page-about {
     /* Uncomment text below to disable link in Nav Bar */
-      color: var(--bs-nav-link-disabled-color);
-      pointer-events: none;
-      cursor: default;
+    color: var(--bs-nav-link-disabled-color);
+    pointer-events: none;
+    cursor: default;
 }
 
 .page-contact {
@@ -57,27 +62,41 @@ body {
     cursor: default;
 }
 
+/* ---------- Home ---------- */
 
 /* ---------- Projects ---------- */
 
 .project-card {
-    width: 30rem;
-    margin: 3em 1em 0em;
+    width: 20rem;
+    margin: 1em 1em 1em;
 }
 
 a.project-link {
-color: var(--bs-card-title-color);
-text-decoration: none;
+    color: var(--bs-card-title-color);
+    text-decoration: none;
 }
 
 a.project-link:hover {
-color: #ced4da;
+    color: #ced4da;
 }
 
-.project-section-container {
-margin: 3em 1em 0em;
-background-color: rgba(21, 25, 29, 0.8);
+/* ---------- Articles ---------- */
+.article-card {
+    width: 35rem;
+    margin: 1em 1em 1em;
+}
+
+a.article-link {
+    color: var(--bs-card-title-color);
+    text-decoration: none;
+}
+
+a.article-link:hover {
+    color: #ced4da;
+}
+
+p {
+    text-indent: 2em;
 }
 
 /* ---------- Footer ---------- */
-
