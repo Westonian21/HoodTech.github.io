@@ -43,9 +43,9 @@ body {
 
 .page-articles {
     /* Uncomment text below to disable link in Nav Bar */
-    /*color: var(--bs-nav-link-disabled-color);
-      pointer-events: none;
-      cursor: default;*/
+    color: var(--bs-nav-link-disabled-color);
+    pointer-events: none;
+    cursor: default;
 }
 
 .page-about {
