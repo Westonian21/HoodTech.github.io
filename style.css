@@ -64,6 +64,10 @@ body {
 
 /* ---------- Home ---------- */
 
+.carousel-container {
+    padding: 0%;
+} 
+
 .image-container {
     position: relative;
     padding-bottom: 140%;
